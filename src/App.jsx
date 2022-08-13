@@ -1,10 +1,12 @@
 import Routes from './routes/Routes';
-import "./App.css";
+import "./assets/style.css";
+
 
 function App() {
 
   return (
-    <div className="">
+    <div className="container">
+      
       <Routes />
     </div>
   );
