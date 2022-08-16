@@ -9,12 +9,12 @@ function Header() {
     const $buscar = useRef(null);
     const $contacto = useRef(null);
 
-    function activado (prop)  {
+    function activado (props)  {
     	$home.current.classList.remove('active');
     	$publicar.current.classList.remove('active');
     	$buscar.current.classList.remove('active');
     	$contacto.current.classList.remove('active');
-        prop.current.classList.add('active');
+        props.target.classList.add('active');
 
     };
     return (
@@ -32,21 +32,20 @@ function Header() {
 		            <div className="col">
 		                <ul className="nav nav-tabs d-flex justify-content-end">
 		                    <li className="nav-item fw-bolder">
-		                        <a className="nav-link text-dark" aria-current="page" href="#" ref={$home} onClick={()=>activado($home)} >Home</a>
+		                        <a className="nav-link text-dark" aria-current="page" href="#" ref={$home} onClick={(event)=>activado(event)} >Home</a>
 		                    </li>
 		                    <li className="nav-item fw-bolder">
-		                        <a className="nav-link text-dark" href="#" ref={$publicar} onClick={()=>activado($publicar)} >Publicar</a>
+		                        <a className="nav-link text-dark" href="#" ref={$publicar} onClick={(event)=>activado(event)} >Publicar</a>
 		                    </li>
 		                    <li className="nav-item fw-bolder">
-		                        <a className="nav-link text-dark" href="#" ref={$buscar} onClick={()=>activado($buscar)}>Buscador</a>
+		                        <a className="nav-link text-dark" href="#" ref={$buscar} onClick={(event)=>activado(event)}>Buscador</a>
 		                    </li>
 		                    <li className="nav-item fw-bolder">
-		                        <a className="nav-link text-dark" href='#' ref={$contacto} onClick={()=>activado($contacto)}>Contacto</a>
+		                        <a className="nav-link text-dark" href='#' ref={$contacto} onClick={(event)=>activado(event)}>Contacto</a>
 		                    </li>
 		                </ul>
 		            </div>
-        		</div>
-    )
+        		</div>)
 }
 
 
