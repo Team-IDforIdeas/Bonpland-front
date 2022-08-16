@@ -17,5 +17,11 @@
     "sourceType": "module"
   },
   "plugins": ["react"],
-  "rules": {}
+  "rules": {
+    // "react/function-component-definition": [<enabled>, {
+    //   "namedComponents": "function-declaration" | "function-expression" | "arrow-function" | Array<"function-declaration" | "function-expression" | "arrow-function">,
+    //   "unnamedComponents": "function-expression" | "arrow-function" | Array<"function-expression" | "arrow-function">
+    // }]
+    "react/function-component-definition": "off"
+  }
 }

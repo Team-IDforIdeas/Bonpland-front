@@ -1,11 +1,10 @@
 import Header from "../components/Header";
-import Article from "../components/Article";
+// import F from "../components/Article";
 
-export default function Home() {
+export default function Contact() {
   return (
     <div className="text-center">
       <Header />
-      <Article />
       Home 👋
     </div>
   );

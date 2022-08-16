@@ -10,6 +10,7 @@ export default function Router() {
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="*" element={<NotFound />} />
+        <Route path="contact" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   );
