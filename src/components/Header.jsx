@@ -10,12 +10,15 @@ function Header() {
     const $contacto = useRef(null);
 
     function activado (props)  {
+    	remove();
+        props.target.classList.add('active');
+
+    };
+    function remove(){
     	$home.current.classList.remove('active');
     	$publicar.current.classList.remove('active');
     	$buscar.current.classList.remove('active');
     	$contacto.current.classList.remove('active');
-        props.target.classList.add('active');
-
     };
     return (
 
