@@ -35,16 +35,16 @@ function Header() {
 		            <div className="col">
 		                <ul className="nav nav-tabs d-flex justify-content-end">
 		                    <li className="nav-item fw-bolder">
-		                        <a className="nav-link text-dark" aria-current="page" href="#" ref={$home} onClick={(event)=>activado(event)} >Home</a>
+		                        <a className="nav-link text-dark" aria-current="page" href="#" ref={$home} onClick={event=>activado(event)} >Home</a>
 		                    </li>
 		                    <li className="nav-item fw-bolder">
-		                        <a className="nav-link text-dark" href="#" ref={$publicar} onClick={(event)=>activado(event)} >Publicar</a>
+		                        <a className="nav-link text-dark" href="#" ref={$publicar} onClick={event=>activado(event)} >Publicar</a>
 		                    </li>
 		                    <li className="nav-item fw-bolder">
-		                        <a className="nav-link text-dark" href="#" ref={$buscar} onClick={(event)=>activado(event)}>Buscador</a>
+		                        <a className="nav-link text-dark" href="#" ref={$buscar} onClick={event=>activado(event)}>Buscador</a>
 		                    </li>
 		                    <li className="nav-item fw-bolder">
-		                        <a className="nav-link text-dark" href='#' ref={$contacto} onClick={(event)=>activado(event)}>Contacto</a>
+		                        <a className="nav-link text-dark" href='#' ref={$contacto} onClick={event=>activado(event)}>Contacto</a>
 		                    </li>
 		                </ul>
 		            </div>
