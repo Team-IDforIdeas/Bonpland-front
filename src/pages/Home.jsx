@@ -1,4 +1,4 @@
-import Header from "../components/Header";
+import Header from "../components/shared/Header";
 import Article from "../components/Article";
 
 export default function Home() {
