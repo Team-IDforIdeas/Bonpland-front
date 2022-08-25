@@ -1,12 +1,8 @@
-import Routes from './routes/Routes';
+import Routes from "./routes/Routes";
 import "./assets/style.css";
 
-
 function App() {
-
-  return (
-      <Routes />
-  );
+  return <Routes />;
 }
 
 export default App;

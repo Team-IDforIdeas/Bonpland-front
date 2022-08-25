@@ -1,16 +1,14 @@
-#subHeader{
-
-}	
-#nav ul{
-	display:flex;
-
+#subHeader {
 }
-#nav ul li{
-	margin-right: 30px;
-	list-style: none;
-} 
-#nav ul li a{
-	text-decoration: none;
-	font-weight: bold;
-	color: forestgreen;
+#nav ul {
+  display: flex;
+}
+#nav ul li {
+  margin-right: 30px;
+  list-style: none;
+}
+#nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: forestgreen;
 }
