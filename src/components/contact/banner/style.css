@@ -1,0 +1,35 @@
+#banner{
+	background: url('https://s3-alpha-sig.figma.com/img/3047/3ed4/e74d2a15ee6876aeca7fddfe455bb524?Expires=1662336000&Signature=REnfmEDsClEfJ-8bK-ID0fAL0KiHMcA4XJdFEq4LCrj4RHOa-6JlLpSQsfIi7pSEhJbc-wDoG9as76~RtXJKcAiI28lxt238QM4DLLUfyqMUP7xmMWYCQok8qsNEp9-oC0hmVyv0LzMe04FuPeWq2RdKNJhipy6IhATtNHslHcCC9ChLqljwmlsfyXdlZEOP3h8Wcx60XKhVoF638xhs19qhpSSERqIlAMr5mdfTHxn2WmpC4tp1u1NxpUPPd19-JUkvu0Do-HfZYEHFClZFJtA3WJy0MAiJY8MQHO1IVY9DNnyEaWNySuez0K046gZ-tSEwQznYuDcH2e10gWxF0g__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA');
+	background-size: 100%;
+	background-position: center;
+	height: 175.94px;
+	margin: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	
+}
+#banner h1, p{
+	
+}
+#banner h1{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	color: #F6F8F8;
+
+}
+#banner p{
+	color: #F6F8F8;
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 26px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+}

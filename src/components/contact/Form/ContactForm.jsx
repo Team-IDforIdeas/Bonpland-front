@@ -1,8 +1,11 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import "./index.css";
+import Banner from '../banner/imgBanner';
 
 const Formulario = () => (
   // const {a} =  props;
+  <>
+  <Banner />
   <form action="" className="form__contact my-5 w-50 m-auto">
     <div className="row mb-5">
       <div className="col text-center border border-bottom-0 p-3 ">
@@ -58,6 +61,7 @@ const Formulario = () => (
     </button>
     {/* </div> */}
   </form>
+  </>
 );
 
 export default Formulario;

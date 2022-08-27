@@ -1,12 +1,13 @@
 import Header from "../components/shared/Header";
-import Article from "../components/Article";
+import Article from  '../components/Article';
 
-export default function Home() {
+export default function Buscar(){
   return (
     <div className="container">
+    
       <Header />
       <Article />
-      Home 👋
+      Buscar 👋
     </div>
-  );
+  )
 }

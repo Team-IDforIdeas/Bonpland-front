@@ -1,5 +1,6 @@
 import { useRef } from "react";
 // import logo from "../../assets/img/logo.jpg";
+import { Link } from 'react-router-dom';
 
 function Header() {
   const $home = useRef(null);
@@ -50,45 +51,44 @@ function Header() {
       <div className="col">
         <ul className="nav nav-tabs d-flex justify-content-end">
           <li className="nav-item fw-bolder">
-            <a
+            <Link
               className="nav-link text-dark"
               aria-current="page"
-              href="#"
+              to="/#"
               ref={$home}
               onClick={(event) => activado(event)}
             >
               Home
-            </a>
+            </Link>
           </li>
           <li className="nav-item fw-bolder">
-            <a
+            <Link
               className="nav-link text-dark"
-              href="#"
+              to="/publicar"
               ref={$publicar}
               onClick={(event) => activado(event)}
             >
               Publicar
-            </a>
+            </Link>
           </li>
           <li className="nav-item fw-bolder">
-            <a
+            <Link
               className="nav-link text-dark"
-              href="#"
+              to="/buscar"
               ref={$buscar}
               onClick={(event) => activado(event)}
             >
               Buscador
-            </a>
+            </Link>
           </li>
           <li className="nav-item fw-bolder">
-            <a
+            <Link
               className="nav-link text-dark"
-              href="#"
-              ref={$contacto}
-              onClick={(event) => activado(event)}
+              to="/contact"
+             
             >
               Contacto
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
