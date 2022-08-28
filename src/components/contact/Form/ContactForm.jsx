@@ -1,9 +1,10 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import "./index.css";
-import Banner from '../banner/imgBanner';
+
 
 const Formulario = () => (
 
+      
       <div className="row">
         <form className="col-lg-6 col-md-9 col my-5 m-auto rounded-0">
           <div className="mb-3">
@@ -48,7 +49,8 @@ const Formulario = () => (
             </button> 
           </div> 
         </form> 
-      </div> 
+      </div>
+       
 
 );
 
