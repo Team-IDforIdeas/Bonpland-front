@@ -1,12 +1,12 @@
 import Header from "../components/shared/Header";
-import Article from  '../components/Article';
+import Slide from '../components/slide/Slide';
 
 export default function Buscar(){
   return (
     <div className="container">
     
       <Header />
-      <Article />
+      <Slide />
       Buscar 👋
     </div>
   )
