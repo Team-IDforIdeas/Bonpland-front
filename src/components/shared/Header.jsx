@@ -1,6 +1,6 @@
 import { useRef } from "react";
 // import logo from "../../assets/img/logo.jpg";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 function Header() {
   const $home = useRef(null);
@@ -82,11 +82,7 @@ function Header() {
             </Link>
           </li>
           <li className="nav-item fw-bolder">
-            <Link
-              className="nav-link text-dark"
-              to="/contact"
-             
-            >
+            <Link className="nav-link text-dark" to="/contact">
               Contacto
             </Link>
           </li>

@@ -5,7 +5,6 @@ import NotFound from "../pages/NotFound";
 import Contact from "../pages/Contact";
 import Publicar from "../pages/Publicar";
 
-
 export default function Router() {
   return (
     <BrowserRouter>
@@ -15,7 +14,6 @@ export default function Router() {
         <Route path="*" element={<NotFound />} />
         <Route path="contact" element={<Contact />} />
         <Route path="publicar" element={<Publicar />} />
-
       </Routes>
     </BrowserRouter>
   );

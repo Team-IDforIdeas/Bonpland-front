@@ -1,48 +1,43 @@
-.active{
-	transition-duration: 0.50s;
-	color: forestgreen;
+.active {
+  transition-duration: 0.5s;
+  color: forestgreen;
 }
-.slider{
-	/*border: 2px solid #000;*/
-	width: 85%;
-	height: 400px;
-	margin: 30px auto;
-	display: flex;
-	position: relative;
-	justify-content: center;
-	align-items: center;
-	column-gap: 50px;
-
-
+.slider {
+  /*border: 2px solid #000;*/
+  width: 85%;
+  height: 400px;
+  margin: 30px auto;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  column-gap: 50px;
 }
-.ionicon{
-	/*background: red;*/
-	color: #ccc;
-	z-index: 1;
-	position: absolute;
-	height: 75%;
-	width: 50px;
-	cursor: pointer;
+.ionicon {
+  /*background: red;*/
+  color: #ccc;
+  z-index: 1;
+  position: absolute;
+  height: 75%;
+  width: 50px;
+  cursor: pointer;
 }
-#fle-left{
-	left: -50px;
-
+#fle-left {
+  left: -50px;
 }
-#fle-right{
-	right: -50px;
-	transform: rotate(180deg);
+#fle-right {
+  right: -50px;
+  transform: rotate(180deg);
 }
-#imgleft{
-	position: absolute;
-	left: 0;
-	
+#imgleft {
+  position: absolute;
+  left: 0;
 }
-#imgcenter{
-	position: absolute;
-	z-index: 1;
-
+#imgcenter {
+  position: absolute;
+  z-index: 1;
 }
-#imgright{
-	position: absolute;
-	right: 0;
+#imgright {
+  position: absolute;
+  right: 0;
 }
