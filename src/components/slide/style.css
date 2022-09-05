@@ -4,7 +4,7 @@
 }
 .slider{
 	/*border: 2px solid #000;*/
-	width: 100%;
+	width: 90%;
 	height: 400px;
 	margin: 30px auto;
 	display: flex;
@@ -40,6 +40,7 @@
 	
 }
 #imgcenter{
+	width:40%;
 	border-radius: 5px;
 	position: absolute;
 	z-index: 1;

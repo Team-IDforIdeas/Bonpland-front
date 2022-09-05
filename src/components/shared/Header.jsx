@@ -3,25 +3,25 @@ import { useRef } from "react";
 import { Link } from 'react-router-dom';
 
 function Header() {
-  const $home = useRef(null);
-  const $publicar = useRef(null);
-  const $buscar = useRef(null);
-  const $contacto = useRef(null);
+    const $home = useRef(null);
+    const $publicar = useRef(null);
+    const $buscar = useRef(null);
+    const $contacto = useRef(null);
 
-  function remove() {
-    $home.current.classList.remove("active");
-    $publicar.current.classList.remove("active");
-    $buscar.current.classList.remove("active");
-    $contacto.current.classList.remove("active");
-  }
+    function remove() {
+        $home.current.classList.remove("active");
+        $publicar.current.classList.remove("active");
+        $buscar.current.classList.remove("active");
+        $contacto.current.classList.remove("active");
+    }
 
-  function activado(props) {
-    remove();
-    props.target.classList.add("active");
-  }
+    function activado(props) {
+        remove();
+        props.target.classList.add("active");
+    }
 
-  return (
-    <div className="row mt-5">
+    return (
+        <div className="row mt-5">
       <div className="col-1 me-3">
         <svg
           width="54"
@@ -93,7 +93,7 @@ function Header() {
         </ul>
       </div>
     </div>
-  );
+    );
 }
 
 export default Header;
