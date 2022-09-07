@@ -67,7 +67,7 @@ function Slide() {
     }
   }
 
-  // setInterval(next, 4000); 
+  // setInterval(next, 4000);
 
   return (
     <div className="row mt-3">
