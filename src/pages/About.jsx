@@ -1,8 +1,3 @@
-
-export default function About(){
-  return (
-    <div className="container">
-      About 👋
-    </div>
-  )
+export default function About() {
+  return <div className="container">About 👋</div>;
 }
