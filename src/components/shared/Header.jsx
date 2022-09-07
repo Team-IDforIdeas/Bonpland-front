@@ -15,9 +15,9 @@ function Header() {
     $contacto.current.classList.remove("active");
   }
 
-  function activado(props) {
+  function activado(event) {
     remove();
-    props.target.classList.add("active");
+    event.target.classList.add("active");
   }
 
   return (

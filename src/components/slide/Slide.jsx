@@ -2,8 +2,7 @@ import "./style.css";
 
 function Slide() {
   return (
-    <>
-      <div className="row mt-3">
+    <div className="row mt-3">
         <div className="slider">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -28,7 +27,6 @@ function Slide() {
           </svg>
         </div>
       </div>
-    </>
   );
 }
 export default Slide;

@@ -1,6 +1,4 @@
-{
-  /* import PublicarPag from '../components/publicar/PublicarPag'; */
-}
+/* import PublicarPag from '../components/publicar/PublicarPag'; */
 import Header from "../components/shared/Header";
 
 function Publicar() {
