@@ -1,13 +1,17 @@
 import { useRef, useState } from "react";
 // import { Link } from "react-router-dom";
-import img from "../../assets/Imagenes";
+import img1 from "../../assets/img/foto1.jpeg";
+import img2 from "../../assets/img/foto2.jpeg";
+import img3 from "../../assets/img/foto3.jpg";
+
+
 import "./style.css";
 
 function Slide() {
 
-    let [left, setLeft] = useState(img.img1);
-    let [center, setCenter] = useState(img.img2);
-    let [right, setRight] = useState(img.img3);
+    let [left, setLeft] = useState(img1);
+    let [center, setCenter] = useState(img2);
+    let [right, setRight] = useState(img3);
 
     let [descrip, setDescrip] = useState('Esta es mi casa');
   
@@ -18,24 +22,24 @@ function Slide() {
 
     function prev() {
         switch(center){
-            case img.img1:
-                setLeft(img.img1);
-                setCenter(img.img3);
-                setRight(img.img2);
+            case img1:
+                setLeft(img1);
+                setCenter(img3);
+                setRight(img2);
                 setDescrip('Esta es la casa de un vecino');
                 
                 break;
-            case img.img2:
-                setLeft(img.img2);
-                setCenter(img.img1);
-                setRight(img.img3);
+            case img2:
+                setLeft(img2);
+                setCenter(img1);
+                setRight(img3);
                 setDescrip('Casa de otro vecino');
                 
                 break;
             default:
-                setLeft(img.img3);
-                setCenter(img.img2);
-                setRight(img.img1);
+                setLeft(img3);
+                setCenter(img2);
+                setRight(img1);
                 setDescrip('Esta es mi casa');
                
                 break;
@@ -44,30 +48,30 @@ function Slide() {
     function next() {
          
         switch(center){
-            case img.img1:
-                setLeft(img.img2);
-                setCenter(img.img3);
-                setRight(img.img1);
+            case img1:
+                setLeft(img2);
+                setCenter(img3);
+                setRight(img1);
                 setDescrip('Casa de otro vecino');
                 
                 break;
-            case img.img2:
-                setLeft(img.img3);
-                setCenter(img.img1);   
-                setRight(img.img2);
+            case img2:
+                setLeft(img3);
+                setCenter(img1);   
+                setRight(img2);
                 setDescrip('Esta es la casa de un vecino');
                 
                 break;
             default:
-                setLeft(img.img1);
-                setCenter(img.img2);
-                setRight(img.img3);
+                setLeft(img1);
+                setCenter(img2);
+                setRight(img3);
                 setDescrip('Esta es mi casa');
                 break;
         } 
     }
    
-   {/* setInterval(next , 4000) */ }
+   {/* setInterval(next , 3000) */ } 
 
 
    return (
@@ -84,24 +88,21 @@ function Slide() {
           <path d="M321.94 98L158.82 237.78a24 24 0 000 36.44L321.94 414c15.57 13.34 39.62 2.28 39.62-18.22v-279.6c0-20.5-24.05-31.56-39.62-18.18z" />
         </svg>
         <img
-          src={img.img1}
+          src={left}
           className="h-50"
           id="imgleft"
-          ref={imgLeft}
           alt="imgleft"
         />
         <img
-          src={img.img2}
+          src={center}
           className="h-75"
           id="imgcenter"
-          ref={imgCenter}
           alt="imgcenter"
         />
         <img
-          src={img.img3}
+          src={right}
           className="h-50"
           id="imgright"
-          ref={imgRight}
           alt="imgright"
         />
         <svg
