@@ -1,6 +1,6 @@
 import Header from "../components/shared/Header";
 import Slide from "../components/slide/Slide";
-import Miga from "../components/shared/Pan de miga/Miga";
+import Miga from "../components/shared/panDeMiga/Miga";
 import Buscador from "../components/shared/Buscador/Buscar";
 
 export default function Buscar() {
