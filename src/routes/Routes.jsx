@@ -10,12 +10,11 @@ export default function Router() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="buscar" element={<Buscar />} />
-        <Route path="*" element={<NotFound />} />
-        <Route path="contact" element={<Contact />} />
-        <Route path="publicar" element={<Publicar />} />
-
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="buscar" element={<Buscar />} />
+        <Route exact path="*" element={<NotFound />} />
+        <Route exact path="contact" element={<Contact />} />
+        <Route exact path="publicar" element={<Publicar />} />
       </Routes>
     </BrowserRouter>
   );

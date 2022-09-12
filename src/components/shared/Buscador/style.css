@@ -1,0 +1,22 @@
+#boxInput{
+	margin: 30px auto;
+	width: 80%;
+	position: relative;
+	background: #ccc;
+	text-align: center;
+}
+
+#inputBuscar{
+	width: 40%;
+	border: none;
+	border-bottom: 1px solid #000;
+	font-weight: 600;
+
+	
+}
+#lupíta{
+	position: absolute;
+	background: yellow;
+	right: 30px;
+	
+}
