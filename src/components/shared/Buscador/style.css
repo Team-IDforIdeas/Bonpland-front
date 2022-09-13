@@ -2,7 +2,6 @@
 	margin: 30px auto;
 	width: 80%;
 	position: relative;
-	background: #ccc;
 	text-align: center;
 }
 
@@ -10,13 +9,35 @@
 	width: 40%;
 	border: none;
 	border-bottom: 1px solid #000;
-	font-weight: 600;
 
 	
 }
-#lupíta{
+
+#lupita{
 	position: absolute;
-	background: yellow;
-	right: 30px;
-	
+	height:23px;
+	right: 260px;
+	top: 2px;	
+}
+.hidden{
+	display: none;
+}
+.muestra{
+	position: relative;
+	width: 100px;
+	padding: 10px;
+	background: #ccc;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.muestra h6{
+	display: inline-block;
+
+}
+.muestra span{
+	position: absolute;
+	right: 10px;
+	bottom: 15px;
+	font-weight: bolder;
 }
