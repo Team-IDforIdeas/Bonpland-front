@@ -17,23 +17,21 @@ import img18 from "./img/foto18.jpg";
 import img19 from "./img/foto19.jpg";
 
 export default {
-	'img1':img1,
-	'img2':img2,
-	'img3':img3,
-	'img4':img4,
-	'img5':img5,
-	'img6':img6,
-	'img7':img7,
-	'img8':img8,
-	'img9':img9,
-	'img10':img10,
-	'img11':img11,
-	'img12':img12,
-	'img13':img13,
-	'img15':img15,
-	'img17':img17,
-	'img18':img18,
-	'img19':img19,
-
-
-} 
+  img1,
+  img2,
+  img3,
+  img4,
+  img5,
+  img6,
+  img7,
+  img8,
+  img9,
+  img10,
+  img11,
+  img12,
+  img13,
+  img15,
+  img17,
+  img18,
+  img19,
+};

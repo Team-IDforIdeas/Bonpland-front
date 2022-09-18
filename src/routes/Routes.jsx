@@ -4,7 +4,7 @@ import Buscar from "../pages/Buscar";
 import NotFound from "../pages/NotFound";
 import Contact from "../pages/Contact";
 import Publicar from "../pages/Publicar";
-
+import Search from "../pages/Search";
 
 export default function Router() {
   return (
@@ -15,6 +15,7 @@ export default function Router() {
         <Route exact path="*" element={<NotFound />} />
         <Route exact path="contact" element={<Contact />} />
         <Route exact path="publicar" element={<Publicar />} />
+
       </Routes>
     </BrowserRouter>
   );
