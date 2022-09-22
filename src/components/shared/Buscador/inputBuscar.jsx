@@ -1,3 +1,5 @@
+/* eslint-disable no-alert */
+/* eslint-disable no-unused-vars */
 import "./style.css";
 import { useRef, useState } from "react";
 
@@ -25,15 +27,15 @@ const Buscar = () => {
             d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z"
             fill="none"
             stroke="gold"
-            stroke-miterlimit="10"
-            stroke-width="42"
+            strokeMiterlimit="10"
+            strokeWidth="42"
           />
           <path
             fill="none"
             stroke="gold"
-            stroke-linecap="round"
-            stroke-miterlimit="10"
-            stroke-width="62"
+            strokeLinecap="round"
+            strokeMiterlimit="10"
+            strokeWidth="62"
             d="M338.29 338.29L448 448"
           />
         </svg>

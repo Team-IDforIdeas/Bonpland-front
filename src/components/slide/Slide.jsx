@@ -1,3 +1,5 @@
+/* eslint-disable no-lone-blocks */
+/* eslint-disable no-unused-vars */
 import { useRef, useState } from "react";
 // import { Link } from "react-router-dom";
 import img1 from "../../assets/img/foto1.jpeg";
@@ -7,11 +9,11 @@ import img3 from "../../assets/img/foto3.jpg";
 import "./style.css";
 
 function Slide() {
-  let [left, setLeft] = useState(img1);
-  let [center, setCenter] = useState(img2);
-  let [right, setRight] = useState(img3);
+  const [left, setLeft] = useState(img1);
+  const [center, setCenter] = useState(img2);
+  const [right, setRight] = useState(img3);
 
-  let [descrip, setDescrip] = useState("Esta es mi casa");
+  const [descrip, setDescrip] = useState("Esta es mi casa");
 
   function prev() {
     switch (center) {
