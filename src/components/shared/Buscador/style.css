@@ -1,41 +1,39 @@
-#boxInput{
-	margin: 30px auto;
-	width: 80%;
-	position: relative;
-	text-align: center;
+#boxInput {
+  margin: 30px auto;
+  width: 80%;
+  position: relative;
+  text-align: center;
 }
 
-#inputBuscar{
-	width: 40%;
-	border: none;
-	border-bottom: 1px solid #000;
-
-	
+#inputBuscar {
+  width: 40%;
+  border: none;
+  border-bottom: 1px solid #000;
 }
 
-#lupita{
-	position: absolute;
-	height:23px;
-	right: 260px;
-	top: 2px;	
+#lupita {
+  position: absolute;
+  height: 23px;
+  right: 260px;
+  top: 2px;
 }
-.hidden{
-	display: none;
+.hidden {
+  display: none;
 }
-.muestra{
-	display: flex;
-	justify-content: space-around;
+.muestra {
+  display: flex;
+  justify-content: space-around;
 
-	margin-right: 10px;
-	width: 100px;
-	height: 30px;
-	border-bottom: 3px solid #E0B067;
+  margin-right: 10px;
+  width: 100px;
+  height: 30px;
+  border-bottom: 3px solid #e0b067;
 }
-.muestra p{
-	font-weight:600;
+.muestra p {
+  font-weight: 600;
 }
-.equis{
-	position: relative;
-	top: 2px;
-	cursor: pointer;
+.equis {
+  position: relative;
+  top: 2px;
+  cursor: pointer;
 }

@@ -7,8 +7,10 @@ const LocalInformation = () => (
     <hr />
     <button type="button">Restaurantes</button>
     <button type="button">Escuelas</button>
-    <button type="button">Museos</button><br />
-    <GoogleMapIframe /><br />
+    <button type="button">Museos</button>
+    <br />
+    <GoogleMapIframe />
+    <br />
     <CarIcon />
   </div>
 );

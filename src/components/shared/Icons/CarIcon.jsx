@@ -1,4 +1,3 @@
-
 const CarIcon = () => (
   <svg
     width="23"
