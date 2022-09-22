@@ -15,7 +15,7 @@ export default function Router() {
         <Route exact path="*" element={<NotFound />} />
         <Route exact path="contact" element={<Contact />} />
         <Route exact path="publicar" element={<Publicar />} />
-
+        <Route exact path="search" element={<Search />} />
       </Routes>
     </BrowserRouter>
   );

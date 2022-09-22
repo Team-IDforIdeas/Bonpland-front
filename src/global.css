@@ -5,6 +5,14 @@
 /* global colors*/
 :root {
   --bg-footer: #999999;
+  --bg-primary: #f5c181;
+  --bg-secondary: #343434;
+  --bg-succes: #77b057;
+  --bg-danger: #f44336;
+  --bg-primary-variant: #e0b067;
+  --bg-secondary-variant-70: #cbcbcb;
+  --bg-secondary-variant-50: #999999;
+  --bg-optional: #81b5f5;
 }
 
 /* global sizes*/
